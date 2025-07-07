@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Entrevistas - Blog do Centro Qualifica</title>
+    <link rel="icon" type="image/png" href="image/cq.png">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #d0f3f7;
+        }
+
+        header {
+            background-color: #ffffff;
+            color: #199fa5;
+            padding: 1rem 0;
+            text-align: center;
+            position: relative;
+        }
+
+        header img {
+            position: absolute;
+            top: 0.5rem;
+            left: 1rem;
+            max-width: 150px;
+            height: auto;
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+        }
+
+        nav {
+            background-color: #73c3c0;
+            padding: 1rem;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        nav ul li {
+            margin: 0 1rem;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+
+        nav ul li a:hover {
+            color: #247c89;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+        }
+
+        .post {
+            background: white;
+            padding: 1.5rem;
+            margin-bottom: 1.5rem;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s;
+        }
+
+        .post:hover {
+            transform: translateY(-5px);
+        }
+
+        .post h3 {
+            color: #199fa5;
+            margin-bottom: 0.5rem;
+        }
+
+        .post p {
+            color: #666;
+            margin-bottom: 1rem;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 0.5rem 1rem;
+            background-color: #abdf5e;
+            color: #333;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+
+        .btn:hover {
+            background-color: #247c89;
+        }
+
+        footer {
+            background-color: #199fa5;
+            color: white;
+            text-align: center;
+            padding: 1rem 0;
+            margin-top: 2rem;
+        }
+
+        footer a {
+            color: #abdf5e;
+            text-decoration: none;
+            margin: 0 1rem;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+            color: #247c89;
+        }
+
+        footer img {
+            max-width: 100%;
+            height: auto;
+            margin-top: 1rem;
+        }
+
+        @media (max-width: 768px) {
+            nav ul {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            nav ul li {
+                margin: 0.5rem 0;
+            }
+
+            header h1 {
+                font-size: 1.8rem;
+            }
+
+            header img {
+                max-width: 120px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <img src="image/logos_CQ_TRAS.png" alt="Centro Qualifica Logo" width="3200px" height="1000px" >
+        <h1>Blog do Centro Qualifica</h1>
+        <nav>
+            <ul>
+                <li><a href="blog.html">Início</a></li>
+                <li><a href="experiencias.html">Experiências</a></li>
+                <li><a href="tutoriais.html">Tutoriais</a></li>
+                <li><a href="dicas.html">Dicas</a></li>
+                <li><a href="entrevistas.html">Entrevistas</a></li>
+                <li><a href="redes_sociais.html">Redes Sociais</a></li>
+                <li><a href="feedback.html">Feedback</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container">
+        <h2>Entrevistas</h2>
+        <div class="post">
+            <h3>Entrevista com Ana Sofia, Estagiária</h3>
+            <p>Ana Sofia, estagiária há três meses no Centro Qualifica, partilhou a sua jornada: “No início, estava
+                insegura, mas o acompanhamento da minha tutora e as sessões práticas mudaram tudo. Recomendo a todos que
+                aproveitem as oportunidades de formação, pois abrem portas para o mercado de trabalho.” Ela destaca
+                ainda a importância das parcerias com empresas locais.</p>
+            <a href="entrevista-ana.html" class="btn">Ler mais</a>
+        </div>
+        <div class="post">
+            <h3>Entrevista com João Pereira, Formador</h3>
+            <p>João Pereira, formador experiente, explica: “O meu papel é guiar os estagiários, ajudando-os a alinhar as
+                suas competências com as necessidades do mercado. Uso metodologias ativas, como projetos em grupo, para
+                garantir uma aprendizagem prática e motivadora, especialmente no contexto do Pessoas 2030.”</p>
+            <a href="entrevista-joao.html" class="btn">Ler mais</a>
+        </div>
+    </div>
+    <footer>
+        <p>© 2025 Centro Qualifica. Todos os direitos reservados.</p>
+        <a href="https:www.facebook.com/centro.qualifica.aerbp/"
+            class="text-gray-400 hover:text-white mx-2">Facebook</a>
+        <a href="https:www.instagram.com/cq_aerbp" class="text-gray-400 hover:text-white mx-2">Instagram</a>
+        <img src="image/Barra_CQ.png" alt="barra CQ">
+    </footer>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const navLinks = document.querySelectorAll('nav ul li a');
+            navLinks.forEach(link => {
+                link.addEventListener('click', (e) => {
+                    navLinks.forEach(l => l.style.color = 'white');
+                    e.target.style.color = '#247c89';
+                });
+            });
+        });
+    </script>
+</body>
+
+</html>
